@@ -24,6 +24,21 @@ body {
     color: #FF5B5B;
 }
 
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+.nav-links:visited {
+    color: white;
+}
+.nav-links:hover {
+    color: #FF5B5B;
+}
+/* Override for name link only. */
+.name-link:hover {
+    color: white;
+}
+
 #section-title {
     background-image: url('../images/placeholder_2.png');
     background-size: 100%;
@@ -94,17 +109,6 @@ footer {
 }
 .socials-item {
     width: 50%;
-}
-
-.footer-links {
-    color: white;
-    text-decoration: none;
-}
-.footer-links:visited {
-    color: white;
-}
-.footer-links:hover {
-    color: #FF5B5B;
 }
 
 .footer-separator {
