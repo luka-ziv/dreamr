@@ -72,11 +72,11 @@ h2 {
 
 #section-highlights {
     background-color: #474747;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 h3 {
-    width: 100;
+    width: 100%;
     margin: 0;
     font-size: 1.5em;
     text-align: center;
@@ -139,4 +139,12 @@ footer {
 }
 .signature-copyright {
     flex-grow: 1;
+}
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.gallery-image {
+    width: 100%;
 }
