@@ -124,11 +124,11 @@ footer {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    padding: 0;
     justify-content: center;
     gap: 10px;
     font-size: 1.25em;
-    padding: 0 0 50px 0;
+    padding: 20px 0 70px 0;
+    margin: 0;
 }
 
 .signature-container {
@@ -190,4 +190,55 @@ footer {
     color: white;
     font-size: 1.5em;
     text-align: justify;
+}
+
+/* CONTACT PAGE */
+
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+}
+
+.contacts-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 75px 0;
+}
+
+.contact-box {
+    width: 95%;
+    list-style-type: none;
+    border: solid black 1.5px;
+    margin: 0;
+    /* padding: 2% 3% 2% 2%; */
+    padding: 3%;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    box-shadow: 1px 3px #3E3D3D;
+}
+.contact-box:hover {
+    width: 100%;
+}
+
+.contact-type {
+    color: black;
+    font-size: 3em;
+}
+.contact-info {
+    flex-grow: 1;
+    font-size: 1.25em;
+}
+.contact-out {
+    color: black;
+    font-size: 2em;
+}
+
+.contact-footer-nav {
+    padding-top: 50px;
 }
