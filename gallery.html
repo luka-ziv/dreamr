@@ -27,10 +27,13 @@
     <script>
         var galleryContainer = document.getElementById('gallery-container');
         var galleryItems = '';
-        var fileOrder = [1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1];
-        var arrayLength = fileOrder.length;
-        for (var i = 0; i < arrayLength; i++) {
-            galleryItems += '<img class="gallery-image" src="./images/placeholder_' + fileOrder[i] + '.png">'
+        for (var i = 1; i <= 89; i++) {
+            if (i < 10) {
+                galleryItems += '<img class="gallery-image" src="./images/gallery/gallery_00' + i + '.png">'
+            }
+            else {
+                galleryItems += '<img class="gallery-image" src="./images/gallery/gallery_0' + i + '.png">'
+            }
         }
         galleryContainer.innerHTML = galleryItems
     </script>
