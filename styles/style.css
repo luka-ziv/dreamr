@@ -158,17 +158,16 @@ footer {
 
 /* --- Positioning Name (start) --- */
 #about-title {
-    background-image: url('../images/placeholder_about.png');
-    background-size: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('../images/about/about_001.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 .about-name-container {
     width: 80%;
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
