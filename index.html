@@ -34,14 +34,16 @@
         <div>
             <h3>Highlights</h3>
         </div>
-        <div class="highlights-container">
-            <img class="highlight-image" src="./images/placeholder_3.png">
-            <img class="highlight-image" src="./images/placeholder_1.png">
-            <img class="highlight-image" src="./images/placeholder_3.png">
-            <img class="highlight-image" src="./images/placeholder_1.png">
-            <img class="highlight-image" src="./images/placeholder_3.png">
-            <img class="highlight-image" src="./images/placeholder_1.png">
+        <div id="highlights-container">
         </div>
+        <script>
+            var highlightContainer = document.getElementById('highlights-container');
+            var highlightImages = '';
+            for (var i = 2; i <= 7; i++) {
+                highlightImages += '<img class="highlight-image" src="./images/index/index_00' + i + '.png">'
+            }
+            highlightContainer.innerHTML = highlightImages
+        </script>
     </section>
 
     <footer>

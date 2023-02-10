@@ -40,8 +40,9 @@ body {
 }
 
 #section-title {
-    background-image: url('../images/placeholder_2.png');
+    background-image: url('../images/index/index_001.png');
     background-size: 100%;
+    background-position: bottom;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -84,11 +85,13 @@ h3 {
     padding: 1.5% 0;
 }
 
-.highlights-container {
+#highlights-container {
     display: grid;
     /* Line below, min col width is 400px, repeats until can't fit anymore 400px cols, resizes to fill rest. */
     /* Makes highlights row completely responsive, resizing to 3, 2, then 1 column when window small enough. */
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2px;
+    background-color: black;
 }
 .highlight-image {
     width: 100%;
