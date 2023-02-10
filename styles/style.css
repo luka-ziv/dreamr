@@ -20,6 +20,17 @@ body {
     margin: 0 2%;
     font-size: 1.5em;
 }
+.nav-icon {display: none;}
+@media screen and (max-width: 640px) {
+    .nav-page {display: none;}
+    .nav-icon {
+        display: block;
+        font-size: 1.75em;
+    }
+    .nav-icon-link {
+        vertical-align: middle;
+    }
+}
 .nav-page:hover {
     color: #FF5B5B;
 }
@@ -37,6 +48,22 @@ body {
 /* Override for name link only. */
 .name-link:hover {
     color: white;
+}
+
+.dropdown-open {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #2f2f2f;
+}
+.dropdown-closed {
+    display: none;
+}
+.nav-dropdown-item {
+    padding: 2% 0;
+    border: solid 1px #2f2f2f;
 }
 
 #section-title {
