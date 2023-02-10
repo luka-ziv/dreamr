@@ -141,6 +141,11 @@ footer {
     color: white;
     padding: 0 10px 10px 10px;
 }
+@media screen and (max-width: 640px) {
+    .signature-container {
+        font-size: 0.75em;
+    }
+}
 .signature-copyright {
     flex-grow: 1;
 }
