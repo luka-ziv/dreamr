@@ -41,8 +41,9 @@ body {
 
 #section-title {
     background-image: url('../images/index/index_001.png');
-    background-size: 100%;
+    background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
     height: 500px;
     display: flex;
     justify-content: center;
