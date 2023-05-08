@@ -284,6 +284,7 @@ footer {
     font-size: 2em;
 }
 @media screen and (max-width: 640px) {
+    .contact-info {font-size: 1em}
     .contact-out {display: none;}
 }
 
